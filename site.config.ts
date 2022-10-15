@@ -2,25 +2,25 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '7167d2cf133a4875b7e23caf545ee402',
+  rootNotionPageId: '91d86a372863457fbe3edcd58ebb612d',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'wr8 Demo',
-  domain: 'demo.wr8.in',
-  author: 'Verfasor',
-  seotitle: 'Demo Site Created with wr8',
+  name: 'Linh Tran - Senior Software Engineer',
+  domain: 'linh.one',
+  author: 'Linh Tran',
+  seotitle: 'Linh Tran - Senior Software Engineer',
 
   // open graph metadata (optional)
-  description: 'This is a demo website created with wr8.',
+  description: 'Build small things in Rust and JS',
 
   // social usernames (optional)
-  twitter: 'verfasor',
-  github: 'verfasor',
-  linkedin: 'verfasor',
+  twitter: 'linrium',
+  github: 'linrium',
+  linkedin: 'linh1',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
@@ -51,18 +51,5 @@ export default siteConfig({
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
   navigationStyle: 'custom',
-  navigationLinks: [   
-    {
-      title: 'Blog',
-      pageId: '588031c1e65d4dfa9d58e2492c9c1b7e'
-    },    
-    {
-      title: 'About',
-      pageId: 'cf2ae3c4839e4e09a1b4a33cc600c409'
-    },
-    {
-      title: 'Contact',
-      pageId: '5f7e562fef814299b10c68c52e920c9a'
-    }
-  ]
+  navigationLinks: []
 })
