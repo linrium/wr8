@@ -55,7 +55,7 @@ export default siteConfig({
   navigationLinks: [
     {
       title: "Awesome",
-      pageId: "Awesome-3cdfc1e77cf5474c967fea960d44ed2e"
+      pageId: "3cdfc1e77cf5474c967fea960d44ed2e"
     }
   ]
 })
